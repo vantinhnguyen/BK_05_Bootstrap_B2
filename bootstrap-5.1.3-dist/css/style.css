@@ -1,16 +1,38 @@
 /* Phần MENU */
 
-.nav-l {
+.jet {
+    font-weight: 700;
+    color: #e8663c;
+    font-size: 32px;
+}
+
+.ro {
+    font-weight: 700;
+    color: #e8663c;
+    opacity: 0.5;
+    font-size: 32px;
+}
+.ml-auto {
     margin-left: auto;
 }
 
-.text-bold {
+.menu-color {
+    color: #b9b9b9;
     font-weight: 700;
 }
 
+.active .menu-color {
+    color: #e8663c;
+}
+
+.menu-color:hover {
+    color: #e8663c;
+}
 
 /* Phần BANER */
-
+.margin-l-r-am-12{
+	padding: 0;
+}
 
 /* Phần IMG */
 
