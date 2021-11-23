@@ -38,6 +38,49 @@
 
 
 /* Phần CARD_1 */
+.card1-heahder{
+	min-height:48px; 
+}
 
+.card-1-color{
+    color: #e8663c;
+    font-weight: 700;
+    font-size: 16px;
+    max-width: 200px;
+    line-height: 1.5;
+}
 
+.mr-16px{
+	margin-right: 16px;
+}
+
+.btn-color{
+	background-color: #e8663c;
+	border-radius: 0;
+}
 /* Phần CARD_2 */
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.text-color{
+	color: #e8663c!important;
+}
+
+.text-hover:hover{
+	text-decoration: underline;
+	color: #e8663c;
+	cursor: pointer ;
+}
+.font-20{
+	font-size: 18px;
+}
+
+.font-12{
+	font-size: 12px;
+}
