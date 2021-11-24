@@ -1,17 +1,20 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>JETRO</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <!-- Phần MENU -->
+
+<head>
+    <title>JETRO</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/style.css">
+</head>
+
+<body>
+    <div class="container main">
+        <!-- Phần MENU -->
+        <div class="container header">
             <nav class="navbar navbar-expand-lg text-uppercase">
                 <a class="navbar-brand" href="#"><span class="jet">jet</span><span class="ro">ro</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,159 +40,238 @@
                     </ul>
                 </div>
             </nav>
-            <!-- Phần BANER -->
-            <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/img_BN.png" class="d-block w-100" alt="Slide 1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/img_BN.png" class="d-block w-100" alt="Slide 2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/img_BN.png" class="d-block w-100" alt="Slide 3">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+        </div>
+        <!-- Phần BANER -->
+        <div id="carouselExampleCaptions" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img_BN.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <div class="carousel-item">
+                    <img src="img/img_BN.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img_BN.png" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-            <!-- Phần IMG -->
-            <div class="container-fluid p-0">
-                <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-6 d-none d-sm-block">
-                        <img src="img/img_1A.png" alt=""  width="100%">
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
-                        <img src="img/img_2A.png" alt=""  width="100%">
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
-                        <img src="img/img_3A.png" alt=""  width="100%">
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
-                        <img src="img/img_4A.png" alt=""  width="100%">
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
-                        <img src="img/img_5A.png" alt=""  width="100%">
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
-                        <img src="img/img_6A.png" alt=""  width="100%">
-                    </div>
-                </div>
-            </div>
-            <!-- Phần CARD 1 -->
-            <div class="container p-0">
-                <div class="row p-0">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="d-flex card1-heahder">
-                            <div class="">
-                                <img src="img/icon_1.png" class="mr-16px" alt="icon_1">
-                            </div>
-                            <div>
-                                <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
-                            </div>
-                        </div>
-                        <div class="card-body p-0">
-                            <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                            <a href="#" class="btn btn-color">MORE</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="d-flex card1-heahder">
-                            <div class="">
-                                <img src="img/icon_2.png" class="mr-16px" alt="icon_1">
-                            </div>
-                            <div>
-                                <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
-                            </div>
-                        </div>
-                        <div class="card-body p-0">
-                            <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                            <a href="#" class="btn btn-color">MORE</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="d-flex card1-heahder">
-                            <div class="">
-                                <img src="img/icon_3.png" class="mr-16px" alt="icon_1">
-                            </div>
-                            <div>
-                                <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
-                            </div>
-                        </div>
-                        <div class="card-body p-0">
-                            <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                            <a href="#" class="btn btn-color">MORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h5 class="text-uppercase font-weight-700 text-color mb-3 mt-3">Recent Works</h5>
-            <!-- Phần CARD 2 -->
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 card mb-3 p-0">
-                        <img src="img/img_2A.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
-                            <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 card mb-3 p-0">
-                        <img src="img/img_2A.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
-                            <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 card mb-3 p-0">
-                        <img src="img/img_2A.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
-                            <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 card mb-3 p-0">
-                        <img src="img/img_2A.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
-                            <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            
         </div>
-        <script src="bootstrap-5.1.3-dist/js/jquery-3.3.1.slim.min.js"></script>
-        <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    </body>
+        <!-- Phần IMG -->
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 d-none d-sm-block">
+                    <img src="img/img_1A.png" alt="" width="100%">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
+                    <img src="img/img_2A.png" alt="" width="100%">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
+                    <img src="img/img_3A.png" alt="" width="100%">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
+                    <img src="img/img_4A.png" alt="" width="100%">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
+                    <img src="img/img_5A.png" alt="" width="100%">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-sm-4 d-none d-sm-block">
+                    <img src="img/img_6A.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        <!-- Phần CARD 1 -->
+        <div class="container p-0">
+            <div class="row p-0">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex card1-heahder">
+                        <div class="">
+                            <img src="img/icon_1.png" class="mr-16px" alt="icon_1">
+                        </div>
+                        <div>
+                            <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                        <a href="#" class="btn btn-color">MORE</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex card1-heahder">
+                        <div class="">
+                            <img src="img/icon_2.png" class="mr-16px" alt="icon_1">
+                        </div>
+                        <div>
+                            <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                        <a href="#" class="btn btn-color">MORE</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="d-flex card1-heahder">
+                        <div class="">
+                            <img src="img/icon_3.png" class="mr-16px" alt="icon_1">
+                        </div>
+                        <div>
+                            <h5 class="card-1-color text-uppercase">Check out my latest portfolio items</h5>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <p class="card-text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                        <a href="#" class="btn btn-color">MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5 class="text-uppercase font-weight-700 text-color mb-3 mt-3">Recent Works</h5>
+        <!-- Phần CARD 2 -->
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 padding-left padding-right">
+                <div class=" card mb-3 p-0">
+                    <img src="img/img_2A.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
+                        <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 padding-left padding-right">
+                <div class=" card mb-3 p-0">
+                    <img src="img/img_2A.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
+                        <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 padding-left padding-right">
+                <div class=" card mb-3 p-0">
+                    <img src="img/img_2A.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
+                        <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 padding-left padding-right">
+                <div class=" card mb-3 p-0">
+                    <img src="img/img_2A.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a class="card-title text-uppercase menu-color font-weight-700 text-hover font-20">Character Design</a>
+                        <p class="card-text"><small class="text-muted text-uppercase font-weight-700 text-color font-12">June 15, 2012</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Phần footer -->
+        <div class="container p-0 footer ">
+            <div class="row">
+
+                <div class="col-lg-4 d-none d-lg-block p-4">
+                    <div class="footer-tile">
+                        <h5 class="text-uppercase font-weight-700">About Jetro</h5>
+                    </div>
+                    <div class="pb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block p-4">
+                    <div class="footer-tile">
+                        <h5 class="text-uppercase font-weight-700">About Jetro</h5>
+                    </div>
+                    <div class="pb-3">
+                        <p>
+                            <span class="text-underline">@pixelmater</span> What an awesome design with great functionality :) <br>
+                            <span class="text-underline">about 1 hour ago</span>
+                        </p>
+                    </div>
+                    <div class="pb-3">
+                        <p>
+                            <span class="text-underline">@pixelmater</span> What an awesome design with great functionality :) <br>
+                            <span class="text-underline">about 1 hour ago</span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Follow <span class="text-underline">about 1 hour ago</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-md-block p-4">
+                    <div class="footer-tile">
+                        <h5 class="text-uppercase font-weight-700">About Jetro</h5>
+                    </div>
+                    <div class="pb-3">
+                        Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.
+                    </div>
+
+                    <div class="pb-3">
+                        information@jetro.com 1.222.333.4444
+                    </div>
+                    <div>
+                        <img src="./img/facebook.png" alt="">
+                        <img src="./img/twitter.png" alt="">
+                        <img src="./img/rss.png" alt="">
+                        <img src="./img/vimeo.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    </div>
+    <script src="bootstrap-5.1.3-dist/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>

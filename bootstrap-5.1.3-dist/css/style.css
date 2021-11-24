@@ -1,5 +1,18 @@
 /* Phần MENU */
 
+.main {
+    position: relative;
+}
+
+.header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
 .jet {
     font-weight: 700;
     color: #e8663c;
@@ -12,6 +25,7 @@
     opacity: 0.5;
     font-size: 32px;
 }
+
 .ml-auto {
     margin-left: auto;
 }
@@ -29,20 +43,28 @@
     color: #e8663c;
 }
 
+
 /* Phần BANER */
-.margin-l-r-am-12{
-	padding: 0;
+
+.carousel {
+    margin-top: 74px;
 }
+
+.margin-l-r-am-12 {
+    padding: 0;
+}
+
 
 /* Phần IMG */
 
 
 /* Phần CARD_1 */
-.card1-heahder{
-	min-height:48px; 
+
+.card1-heahder {
+    min-height: 48px;
 }
 
-.card-1-color{
+.card-1-color {
     color: #e8663c;
     font-weight: 700;
     font-size: 16px;
@@ -50,37 +72,62 @@
     line-height: 1.5;
 }
 
-.mr-16px{
-	margin-right: 16px;
+.mr-16px {
+    margin-right: 16px;
 }
 
-.btn-color{
-	background-color: #e8663c;
-	border-radius: 0;
+.btn-color {
+    background-color: #e8663c;
+    border-radius: 0;
 }
+
+
 /* Phần CARD_2 */
 
-.font-weight-700{
+.font-weight-700 {
     font-weight: 700;
 }
 
-.font-weight-600{
+.font-weight-600 {
     font-weight: 600;
 }
 
-.text-color{
-	color: #e8663c!important;
+.text-color {
+    color: #e8663c!important;
 }
 
-.text-hover:hover{
-	text-decoration: underline;
-	color: #e8663c;
-	cursor: pointer ;
-}
-.font-20{
-	font-size: 18px;
+.text-hover:hover {
+    text-decoration: underline;
+    color: #e8663c;
+    cursor: pointer;
 }
 
-.font-12{
-	font-size: 12px;
+.font-20 {
+    font-size: 18px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.padding-left {
+    padding-left: 12px !important;
+}
+
+.padding-right {
+    padding-right: 12px !important;
+}
+
+
+/* Phần footer */
+
+.footer {
+    background-color: #e8663c;
+    color: #fff;
+}
+
+.text-underline {
+    text-decoration: underline;
+    color: rgb(0, 47, 255);
+    opacity: 0.5;
 }
